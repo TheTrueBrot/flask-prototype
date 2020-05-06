@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+:root {
+    --bg-color: #333745;
+    --ttl-color: #E63462;
+    --stl-color: #FE5F55;
+    --text-color: #C7EFCF;
+    --text-color2: #EEF5DB;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: var(--ttl-color);
+    text-align: center;
+}
+
+div#nav {
+    text-align:center;
+}
+div#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--ttl-color);
+  display:inline-block;;
+}
+
+li {
+    float: left;
+}
+
+li a {
+  display: block;
+  color: var(--text-color2);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #B8294E;
+}
+.middle_content {
+    text-align: justify;
+    width: 70vw;
+    margin: auto;
+}
+.middle_content h2 {
+    text-align: center;
+}
